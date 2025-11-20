@@ -1,0 +1,53 @@
+td {
+    border: 2px solid rgb(15, 218, 174);
+    padding: 10px;
+}
+
+table {
+  table-layout: fixed;
+  width: 100%;
+  border-collapse: collapse;
+  border: 2px solid rgb(5, 49, 248);
+}
+
+
+thead th:nth-child(1) {
+  width: 30%;
+}
+
+thead th:nth-child(2) {
+  width: 20%;
+}
+
+thead th:nth-child(3) {
+  width: 15%;
+}
+
+thead th:nth-child(4) {
+  width: 35%;
+}
+
+select, option {
+	background-color: #fff;
+	border: #da0101 1px solid;
+	margin: 0 0 1.5em 0;
+}
+
+select {
+	Border: #53d3aa 1px solid;
+  border-radius: 3px;
+	font-size: 1rem;
+  padding: 6px 12px;
+}
+
+button {
+background: #049c1d;
+color: white;
+
+border-radius: 3px;
+border-color:#53d3aa;
+height: 35px;
+width: 100px;
+font: bold15px arial,sans-serif;
+
+}
