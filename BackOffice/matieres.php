@@ -41,7 +41,7 @@ $matieres=Selectionne_les_matieres();
 
     <?php 
     }else {
-        require_once(__DIR__ . '/update_matiere.php');
+        require_once(__DIR__ . '/formulaire_upd_matiere.php');
     }
     ?>
 

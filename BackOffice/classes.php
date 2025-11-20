@@ -31,7 +31,7 @@ $classes=Selectionne_les_classes();
     <h2>Ajouter une classe</h2>
     <?php if (isset($_GET['update_classe'])) { 
 
-    require_once(__DIR__ . '/update_classe.php');
+    require_once(__DIR__ . '/formulaire_upd_classe.php');
 
     } 
     else{

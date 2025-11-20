@@ -35,7 +35,7 @@ $matieres=Selectionne_les_matieres();
 
     <?php if (isset($_GET['id_update_note']) && isset($_GET['update_eleve']) && isset($_GET['update_note']) && isset($_GET['update_date']) && isset($_GET['update_matiere'])) {
         
-    require_once(__DIR__ . '/update_note.php');
+    require_once(__DIR__ . '/formulaire_upd_note.php');
     
     } else { ?>
 

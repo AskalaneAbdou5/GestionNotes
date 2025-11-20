@@ -32,7 +32,7 @@ $classes=Selectionne_les_classes();
 
     <?php if (isset($_GET['nom']) && isset($_GET['prenom']) && isset($_GET['id_classe']) && isset($_GET['id_eleve'])) {
         
-    require_once(__DIR__ . '/update_eleve.php');
+    require_once(__DIR__ . '/formulaire_upd_eleve.php');
     
     } else { ?>
 
