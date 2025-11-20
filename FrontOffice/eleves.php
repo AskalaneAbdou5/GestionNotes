@@ -1,7 +1,7 @@
 <?php
-require_once(__DIR__ . '/configmysql.php');
-
-
+require_once(__DIR__ . '/fonction_and_select.php');
+$eleves=selectionne_les_eleves();
+$etudiants=selectionne_les_notes();
 
 ?>
 
